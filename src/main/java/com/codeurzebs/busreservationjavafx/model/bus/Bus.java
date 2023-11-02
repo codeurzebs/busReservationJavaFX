@@ -1,5 +1,5 @@
 package com.codeurzebs.busreservationjavafx.model.bus;
-import com.ngcodex.chauffeur.Chauffeur;
+import com.codeurzebs.busreservationjavafx.model.chauffeur.Chauffeur;
 public class Bus {
     private String numero;
     private int capacite;

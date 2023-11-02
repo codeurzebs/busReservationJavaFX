@@ -1,11 +1,13 @@
 package com.codeurzebs.busreservationjavafx.model;
 
-import com.ngcodex.bus.Bus;
-import com.ngcodex.bus.Panne;
-import com.ngcodex.bus.Reparation;
-import com.ngcodex.chauffeur.Chauffeur;
-import com.ngcodex.etudiant.Etudiant;
-import com.ngcodex.reservation.Reservation;
+import com.codeurzebs.busreservationjavafx.model.bus.Bus;
+import com.codeurzebs.busreservationjavafx.model.bus.Panne;
+import com.codeurzebs.busreservationjavafx.model.bus.Reparation;
+import com.codeurzebs.busreservationjavafx.model.chauffeur.Chauffeur;
+import com.codeurzebs.busreservationjavafx.model.etudiant.Etudiant;
+import com.codeurzebs.busreservationjavafx.model.manifeste.Manifeste;
+import com.codeurzebs.busreservationjavafx.model.reservation.Reservation;
+
 
 import java.util.*;
 
@@ -26,7 +28,7 @@ public class MainReservationBus {
 
         int choix;
         do {
-            System.out.println("-----------GESTION DES RESERVATIONS DE BUS D'ICT-UNIVERSITY--------------\n");
+            System.out.println("-----------GESTION DES RESERVATIONS DE BUS D'ICT-UNIVERSITY Simulation du programme-----------\n");
             System.out.println("\t 1. Créer une réservation ICT Bus");
             System.out.println("\t 2. Afficher les réservations");
             System.out.println("\t 3. Rediger un Manifeste");

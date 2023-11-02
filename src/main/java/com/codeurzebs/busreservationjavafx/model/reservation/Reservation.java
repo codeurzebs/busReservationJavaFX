@@ -1,7 +1,7 @@
 package com.codeurzebs.busreservationjavafx.model.reservation;
 
-import com.ngcodex.bus.Bus;
-import com.ngcodex.etudiant.Etudiant;
+import com.codeurzebs.busreservationjavafx.model.bus.Bus;
+import com.codeurzebs.busreservationjavafx.model.etudiant.Etudiant;
 import java.util.Date;
 
 public class Reservation {
