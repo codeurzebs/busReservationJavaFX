@@ -14,6 +14,8 @@ import java.util.*;
 public class MainReservationBus {
 
     public static void main(String[] args) {
+        // print hello world
+        System.out.println("Hello World!");
         Scanner lire = new Scanner(System.in);
         Map<String, List<String>> manifestes = new HashMap<>();
         List<Reservation> reservations = new ArrayList<>();
